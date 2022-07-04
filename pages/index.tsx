@@ -4,6 +4,7 @@ import GenreList from "../components/GenreList"
 import Header from "../components/Header"
 import RadioList from "../components/RadioList"
 import { Country, Genre, Radio } from "../types"
+import data from "../public/data.json"
 
 interface Props {
   genres: Genre[]
@@ -25,9 +26,6 @@ const Home: NextPage<Props> = ({ genres, countries, radios }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch("https://top-hit-test-task-ne71nen89-powderdev.vercel.app/api/data")
-  const data = await res.json()
-
   return {
     props: data,
   }
