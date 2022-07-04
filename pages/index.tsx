@@ -25,7 +25,7 @@ const Home: NextPage<Props> = ({ genres, countries, radios }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/data")
+  const res = await fetch("/api/data")
   const data = await res.json()
 
   return {
