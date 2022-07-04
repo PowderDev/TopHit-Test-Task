@@ -1,0 +1,447 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Pop"
+    },
+    {
+      "id": 2,
+      "name": "Adult Pop"
+    },
+    {
+      "id": 3,
+      "name": "Power Pop"
+    },
+    {
+      "id": 4,
+      "name": "Dance"
+    },
+    {
+      "id": 5,
+      "name": "Electro"
+    },
+    {
+      "id": 6,
+      "name": "Hip-Hop"
+    },
+    {
+      "id": 7,
+      "name": "Rock"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Testing"
+    },
+    {
+      "id": 2,
+      "name": "Local Radio"
+    },
+    {
+      "id": 3,
+      "image": "/assets/countries/🇷🇺.png",
+      "name": "Russia"
+    },
+    {
+      "id": 4,
+      "image": "/assets/countries/🇺🇸.png",
+      "name": "United States"
+    },
+    {
+      "id": 5,
+      "image": "/assets/countries/de.png",
+      "name": "Germany"
+    },
+    {
+      "id": 6,
+      "image": "/assets/countries/lv.png",
+      "name": "Latvia"
+    },
+    {
+      "id": 7,
+      "image": "/assets/countries/by.png",
+      "name": "Belorussia"
+    }
+  ],
+  "radios": [
+    {
+      "id": 1,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 2,
+      "countryId": 1,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 2,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 1,
+      "countryId": 2,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 3,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 3,
+      "countryId": 3,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 4,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 3,
+      "countryId": 2,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 5,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 4,
+      "countryId": 4,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 6,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 4,
+      "countryId": 5,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 7,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 5,
+      "countryId": 5,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 8,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 7,
+      "countryId": 6,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 9,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 1,
+      "countryId": 7,
+      "name": "Radio number 9"
+    },
+    {
+      "id": 10,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 2,
+      "countryId": 7,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 12,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 4,
+      "countryId": 7,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 13,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 3,
+      "countryId": 6,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 14,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 7,
+      "countryId": 6,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 15,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 6,
+      "countryId": 5,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 16,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 7,
+      "countryId": 3,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 17,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 7,
+      "countryId": 5,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 18,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 4,
+      "countryId": 1,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 19,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 5,
+      "countryId": 1,
+      "name": "Radio number 9"
+    },
+    {
+      "id": 21,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 6,
+      "countryId": 1,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 22,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 4,
+      "countryId": 3,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 23,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 1,
+      "countryId": 3,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 24,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 6,
+      "countryId": 3,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 25,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 2,
+      "countryId": 4,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 26,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 4,
+      "countryId": 4,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 27,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 7,
+      "countryId": 4,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 28,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 4,
+      "countryId": 2,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 29,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 5,
+      "countryId": 2,
+      "name": "Radio number 9"
+    },
+    {
+      "id": 133,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 2,
+      "countryId": 1,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 222,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 1,
+      "countryId": 2,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 31,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 3,
+      "countryId": 3,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 41,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 3,
+      "countryId": 2,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 51,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 4,
+      "countryId": 4,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 61,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 4,
+      "countryId": 5,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 71,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 5,
+      "countryId": 5,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 81,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 7,
+      "countryId": 6,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 91,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 1,
+      "countryId": 7,
+      "name": "Radio number 9"
+    },
+    {
+      "id": 110,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 2,
+      "countryId": 7,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 112,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 4,
+      "countryId": 7,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 113,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 3,
+      "countryId": 6,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 141,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 7,
+      "countryId": 6,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 115,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 6,
+      "countryId": 5,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 116,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 7,
+      "countryId": 3,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 117,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 7,
+      "countryId": 5,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 118,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 4,
+      "countryId": 1,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 119,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 5,
+      "countryId": 1,
+      "name": "Radio number 9"
+    },
+    {
+      "id": 211,
+      "image": "/assets/radios/image 9.png",
+      "genreId": 6,
+      "countryId": 1,
+      "name": "Radio number 1"
+    },
+    {
+      "id": 212,
+      "image": "/assets/radios/image 10.png",
+      "genreId": 4,
+      "countryId": 3,
+      "name": "Radio number 2"
+    },
+    {
+      "id": 213,
+      "image": "/assets/radios/image 13.png",
+      "genreId": 1,
+      "countryId": 3,
+      "name": "Radio number 3"
+    },
+    {
+      "id": 214,
+      "image": "/assets/radios/Rectangle 15.png",
+      "genreId": 6,
+      "countryId": 3,
+      "name": "Radio number 4"
+    },
+    {
+      "id": 215,
+      "image": "/assets/radios/Rectangle 17.png",
+      "genreId": 2,
+      "countryId": 4,
+      "name": "Radio number 5"
+    },
+    {
+      "id": 216,
+      "image": "/assets/radios/Rectangle 18.png",
+      "genreId": 4,
+      "countryId": 4,
+      "name": "Radio number 6"
+    },
+    {
+      "id": 127,
+      "image": "/assets/radios/Rectangle 23.png",
+      "genreId": 7,
+      "countryId": 4,
+      "name": "Radio number 7"
+    },
+    {
+      "id": 128,
+      "image": "/assets/radios/Rectangle 25.png",
+      "genreId": 4,
+      "countryId": 2,
+      "name": "Radio number 8"
+    },
+    {
+      "id": 129,
+      "image": "/assets/radios/Rectangle 28.png",
+      "genreId": 5,
+      "countryId": 2,
+      "name": "Radio number 9"
+    }
+  ]
+}

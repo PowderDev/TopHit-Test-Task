@@ -1,0 +1,14 @@
+.tile {
+  @apply flex items-center justify-center 
+  w-[60px] h-[60px] md:w-[90px] md:h-[90px] 
+  px-4 text-center rounded-xl;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.activeRadio {
+  border: 6px solid #008344;
+}
+
+.disabled {
+  @apply filter grayscale;
+}

@@ -1,0 +1,4 @@
+.radioGrid {
+  @apply grid grid-cols-4 gap-2 py-2 rounded-xl h-fit 
+    overflow-y-auto md:grid-cols-6 xl:grid-cols-10;
+}
