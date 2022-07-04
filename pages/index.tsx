@@ -25,7 +25,7 @@ const Home: NextPage<Props> = ({ genres, countries, radios }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch("/api/data")
+  const res = await fetch("top-hit-test-task-ne71nen89-powderdev.vercel.app/api/data")
   const data = await res.json()
 
   return {
